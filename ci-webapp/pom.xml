@@ -13,11 +13,22 @@
   	</dependency>
   	
   	<!-- https://mvnrepository.com/artifact/org.apache.derby/derbyclient -->
-<dependency>
-    <groupId>org.apache.derby</groupId>
-    <artifactId>derbyclient</artifactId>
-    <version>10.14.2.0</version>
-</dependency>
+	<dependency>
+    	<groupId>org.apache.derby</groupId>
+    	<artifactId>derbyclient</artifactId>
+    	<version>10.14.2.0</version>
+	</dependency>
+
+	<dependency>  
+           <groupId>javax.servlet</groupId>  
+           <artifactId>javax.servlet-api</artifactId>  
+           <version>3.0.1</version>  
+           <scope>provided</scope>  
+       </dependency>
   	
   </dependencies>
+  <properties>  
+        <maven.compiler.source>1.8</maven.compiler.source>  
+        <maven.compiler.target>1.8</maven.compiler.target>  
+    </properties>
 </project>
